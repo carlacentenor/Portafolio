@@ -6,7 +6,6 @@ body {
 
 :root {
   --aqua: aqua;
- 
 }
 
 .h100 {
@@ -25,8 +24,6 @@ h1 {
 section {
   padding-top: 3em;
 }
-
-
 
 .bg-img-p {
   background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.35)), url(../assets/images/portada.jpg) center center;
@@ -85,28 +82,71 @@ section {
   width: 100%;
 }
 
-.aqua{
+.aqua {
   color: var(--aqua);
 }
 
-.w80{
+.w80 {
   width: 80%;
 }
 
-.font-s3{
+.font-s3 {
   font-size: 5em;
+}
+
+.font-s4 {
+  font-size: 2em;
+}
+
+.btn-visit {
+  border-bottom: 1px solid var(--aqua);
+  border-radius: 10px;
+  transition: 1s;
+}
+
+.btn-visit:hover{
+  background-color: var(--aqua);
+  color: black !important;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.btn-sub{
+  background-color: transparent;
+  border: none;
+  
 }
 
 .bar {
   background-color: var(--aqua);
   color: black;
-  
 }
 
-.prog{
+.prog {
   height: 2rem;
-background-color: grey;
+  background-color: grey;
 }
+
+.w100 {
+  width: 100%;
+}
+
+.box-skills {
+  color: var(--aqua);
+  border: 1px solid var(--aqua);
+  border-radius: 10px;
+  padding: 8px;
+  font-size: 12px;
+  transition: 1s;
+}
+
+.box-skills:hover{
+  background-color: var(--aqua);
+  color: black;
+  font-weight: 800;
+}
+
+
 
 @media only screen and (min-width: 540px) {
   .name {
