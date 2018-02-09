@@ -1,0 +1,78 @@
+body {
+  position: relative;
+  color: white;
+  background-color: rgb(26, 25, 25);
+}
+
+.h100 {
+  height: 100vh;
+}
+
+.h90 {
+  height: 90vh;
+}
+
+h1 {
+  margin: 0;
+}
+
+section {
+  padding-top: 3em;
+}
+
+.bg-img-p {
+  background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.35)), url(../assets/images/portada.jpg) center center;
+  background-size: cover;
+  color: white;
+}
+
+.title {
+  font-size: 5em;
+}
+
+.name {
+  font-size: 2em;
+}
+
+.color2 {
+  color: aqua;
+  font-family: 'Grand Hotel', cursive;
+  font-size: 1.5em;
+}
+
+.transparent {
+  background-color: transparent;
+}
+
+.white {
+  color: white !important;
+}
+
+.upper {
+  text-transform: uppercase;
+}
+
+.space {
+  letter-spacing: 4px;
+}
+
+.nav-pills .nav-link.active {
+  background-color: transparent;
+  border-bottom: 2px solid aqua;
+  border-radius: 0;
+}
+
+.index {
+  z-index: 2;
+}
+
+.aboslute {
+  position: absolute;
+}
+
+#particles-js {
+  position: absolute;
+  top: 0;
+  height: 100vh;
+  width: 100%;
+}
