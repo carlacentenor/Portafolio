@@ -4,6 +4,11 @@ body {
   background-color: rgb(26, 25, 25);
 }
 
+:root {
+  --aqua: aqua;
+ 
+}
+
 .h100 {
   height: 100vh;
 }
@@ -14,11 +19,14 @@ body {
 
 h1 {
   margin: 0;
+  color: var(--aqua);
 }
 
 section {
   padding-top: 3em;
 }
+
+
 
 .bg-img-p {
   background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.35)), url(../assets/images/portada.jpg) center center;
@@ -35,7 +43,7 @@ section {
 }
 
 .color2 {
-  color: aqua;
+  color: var(--aqua);
   font-family: 'Grand Hotel', cursive;
   font-size: 1.5em;
 }
@@ -58,7 +66,7 @@ section {
 
 .nav-pills .nav-link.active {
   background-color: transparent;
-  border-bottom: 2px solid aqua;
+  border-bottom: 2px solid var(--aqua);
   border-radius: 0;
 }
 
@@ -77,16 +85,36 @@ section {
   width: 100%;
 }
 
-@media only screen and (min-width: 540px) {
+.aqua{
+  color: var(--aqua);
+}
 
+.w80{
+  width: 80%;
+}
+
+.font-s3{
+  font-size: 5em;
+}
+
+.bar {
+  background-color: var(--aqua);
+  color: black;
+  
+}
+
+.prog{
+  height: 2rem;
+background-color: grey;
+}
+
+@media only screen and (min-width: 540px) {
   .name {
     font-size: 2em;
   }
-
   .title {
     font-size: 5em;
   }
-
   .transparent {
     background-color: transparent !important;
   }
