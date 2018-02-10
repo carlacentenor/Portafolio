@@ -8,9 +8,7 @@ body {
   --aqua: #00ffff;
 }
 
-.h100 {
-  height: 100vh;
-}
+
 
 .h90 {
   height: 90vh;
@@ -303,6 +301,9 @@ section {
   background-color: black;
 }
 
+.h10{
+  height: 10vh;
+}
 
 
 @media only screen and (min-width: 540px) {
@@ -316,15 +317,15 @@ section {
     background-color: transparent !important;
   }
 
-  .h100{
+   .h100{
     height: 100vh;
-  }
+  } 
 
   .h90{
     height: 90vh;
   }
 
-  .w70{
+  .w100{
     width: 60%;
   }
 }
