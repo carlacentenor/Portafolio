@@ -16,7 +16,7 @@ body {
   height: 90vh;
 }
 
-.w50 {
+.w50{
   width: 50%;
 }
 
@@ -108,16 +108,17 @@ section {
   transition: 1s;
 }
 
-.btn-visit:hover {
+.btn-visit:hover{
   background-color: var(--aqua);
   color: black !important;
   text-decoration: none;
   font-weight: 700;
 }
 
-.btn-sub {
+.btn-sub{
   background-color: transparent;
   border: none;
+  
 }
 
 .bar {
@@ -144,106 +145,108 @@ section {
   transition: 1s;
 }
 
-.p10 {
+.p10{
   padding: 10px 0px;
 }
 
-.box-skills:hover {
+.box-skills:hover{
   background-color: var(--aqua);
   color: black;
   font-weight: 800;
 }
 
-.capitalLetter {
-  float: left;
-  color: var(--aqua);
-  font-family: 'Grand Hotel', cursive;
-  font-size: 80px;
-  line-height: 68px;
-  padding: 2px;
-  margin-right: 5px;
+.capitalLetter
+{
+   float:left;
+   color:var(--aqua);
+   
+   font-family: 'Grand Hotel', cursive;
+   font-size:80px;
+   line-height:68px;
+   padding:2px;
+   
+   margin-right: 5px;
 }
+
 
 /**HExagonos**/
 
 .clearfix:after {
-  content: '';
-  width: 0;
-  height: 0;
-  visibility: hidden;
-  display: block;
-  clear: both;
+	content: '';
+	width: 0;
+	height: 0;
+	visibility: hidden;
+	display: block;
+	clear: both;
 }
 
 /*
 * Content & Hexagon 
 * */
-
 .content {
-  margin: 3em auto;
-  width: 300px;
-  padding-bottom: 30px;
+	margin: 3em auto;
+	width: 300px;
+	padding-bottom: 30px;
 }
 
 .hexagon {
-  margin-top: 30px;
-  height: 50px;
-  width: 90px;
-  background: #FFF;
-  position: relative;
-  float: left;
-  margin-right: 5px;
+	margin-top: 30px;
+	height: 50px;
+	width: 90px;
+	background: #FFF;
+	position: relative;
+	float: left;
+	margin-right: 5px;
   cursor: pointer;
   transition: 1s;
 }
 
 .hexagon:before {
-  position: absolute;
-  bottom: 100%;
-  content: '';
-  height: 0;
-  width: 0;
-  border-width: 0 45px 30px 45px;
-  border-style: solid;
+	position: absolute;
+	bottom: 100%;
+	content: '';
+	height: 0;
+	width: 0;
+	border-width: 0 45px 30px 45px;
+	border-style: solid;
   border-color: #FFF transparent;
   transition: 1s;
 }
 
 .hexagon:after {
-  position: absolute;
-  top: 100%;
-  content: '';
-  height: 0;
-  width: 0;
-  border-width: 30px 45px 0 45px;
-  border-style: solid;
+	position: absolute;
+	top: 100%;
+	content: '';
+	height: 0;
+	width: 0;
+	border-width: 30px 45px 0 45px;
+	border-style: solid;
   border-color: #FFF transparent;
   transition: 1s;
 }
 
-.top,
-.bottom {
-  float: left;
-  clear: left;
+.top, .bottom {
+	float: left;
+	clear: left;
 }
 
 .top {
-  margin-left: 48px;
-  margin-top: 3px;
+	margin-left: 48px;
+	margin-top: 3px;
 }
 
 .bottom {
-  margin-top: 3px;
+	margin-top: 3px;
 }
+
 
 /* 
 * Social Icons
 * */
-
-.hexagon[class*="icon-"] {
-  background-color: #FFF;
-  background-repeat: no-repeat;
-  background-position: 50% 50%;
+.hexagon[class*="icon-"]{
+	background-color: #FFF;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
 }
 
 .icon-twitter {
@@ -253,31 +256,54 @@ section {
 .icon-dribble {
   background-image: url('../assets/images/gmail.png');
 }
-
 .icon-youtube {
   background-image: url('../assets/images/git.png');
 }
-
 .icon-plixi {
   background-image: url('../assets/images/codigo.png');
 }
-
 .icon-tumblr {
   background-image: url('../assets/images/twitter.png');
+}
+.icon-html {
+  background-image: url('../assets/images/html5.png');
+}
+.icon-css {
+  background-image: url('../assets/images/css.png');
+}
+.icon-js {
+  background-image: url('../assets/images/java.png');
+}
+.icon-jquery {
+  background-image: url('../assets/images/mater.png');
+
+}
+.icon-firebase {
+  background-image: url('../assets/images/boot.png');
+  
 }
 
 /*
 * Hover
 * */
-
-.hexagon:hover {
-  background-color: var(--aqua);
+.hexagon:hover{
+	background-color: var(--aqua);
 }
 
-.hexagon:hover:before,
-.hexagon:hover:after {
-  border-color: var(--aqua) transparent;
+.hexagon:hover:before, .hexagon:hover:after {
+	border-color: var(--aqua) transparent;
+} 
+
+.bt-color{
+  border-top: 2px solid grey;
 }
+
+
+.bg-black{
+  background-color: black;
+}
+
+
 
 @media only screen and (min-width: 540px) {
   .name {
@@ -288,5 +314,17 @@ section {
   }
   .transparent {
     background-color: transparent !important;
+  }
+
+  .h100{
+    height: 100vh;
+  }
+
+  .h90{
+    height: 90vh;
+  }
+
+  .w70{
+    width: 60%;
   }
 }

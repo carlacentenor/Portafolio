@@ -151,3 +151,13 @@ particlesJS('particles-js',
 
 /***Efecto portafolio */
 
+$(window).scroll(function(){
+if($('#navbar-example2').offset().top>500){
+  $('#navbar-example2').addClass('bg-black');
+  $('#navbar-example2').removeClass('transparent');
+}else{
+  $('#navbar-example2').removeClass('bg-black');
+  $('#navbar-example2').addClass('transparent');
+}
+
+})
