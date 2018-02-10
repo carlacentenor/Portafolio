@@ -60,15 +60,17 @@
     </section>
   </div>
 
-  <section class="h100 container d-flex  align-items-center" id="about">
+  <section class="container " id="about">
     <div class="row">
-      <div class="col-xs-12 col-md-6">
+      <div class="col-12 col-md-6">
         <h1>ACERCA DE MI</h1>
+        <img class="w100 mb-3" src="assets/images/carla.jpg" alt="carla">
       </div>
       <div class="col-xs-12 col-md-6 text-justify">
-        <p>Hola! soy Carla Centeno, desde que inicié mi camino en Laboratoria despertó en mi una nueva pasión :"Amor por el
-          código", desde ese momento lo único que hago es pensar que más puedo aprender para mejorar mis proyectos, porque
-          siempre he tenido claro que uno nunca deja de aprender.
+        <p>
+          <span class="capitalLetter">H</span>ola! soy Carla Centeno, desde que inicié mi camino en Laboratoria despertó en mi una nueva pasión :"Amor
+          por el código", desde ese momento lo único que hago es pensar que más puedo aprender para mejorar mis proyectos,
+          porque siempre he tenido claro que uno nunca deja de aprender.
         </p>
         <p>Otras pasiones que tengo son : el baile y las manualidades ,estas me han permitido desarrollar mis habilidades creativas
           y mi faceta autodidacta, además son parte de mis actividades de relajación.</p>
@@ -92,59 +94,64 @@
       </div>
     </div>
   </section>
-  <section class="h100 container d-flex  align-items-center" id="skills">
-    <div class="col-xs-12 col-md-6">
-      <h1>SKILLS</h1>
+  <section class=" container" id="skills">
+    <div class="row">
+      <div class="col-12 col-md-6">
+        <h1>SKILLS</h1>
+        <img class="w100" src="assets/images/lether.png" alt="">
+      </div>
+      <div class="col-xs-12 col-md-6">
+        <div>
+          <div>
+            <p>HTML5</p>
+          </div>
+          <div class="progress prog">
+            <div class="progress-bar bar" role="progressbar" style="width: 80%;" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+        </div>
+        <div>
+          <div>
+            <p>CSS3</p>
+          </div>
+          <div class="progress prog">
+            <div class="progress-bar bar" role="progressbar" style="width: 80%;" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+        </div>
+        <div>
+          <div>
+            <p>JS</p>
+          </div>
+          <div class="progress prog">
+            <div class="progress-bar bar" role="progressbar" style="width: 80%;" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+        </div>
+        <div>
+          <div>
+            <p>FIREBASE</p>
+          </div>
+          <div class="progress prog">
+            <div class="progress-bar bar" role="progressbar" style="width: 50%;" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+        </div>
+        <div>
+          <div>
+            <p>JQUERY</p>
+          </div>
+          <div class="progress prog">
+            <div class="progress-bar bar" role="progressbar" style="width: 70%;" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+        </div>
+      </div>
     </div>
-    <div class="col-xs-12 col-md-6">
-      <div>
-        <div>
-          <p>HTML5</p>
-        </div>
-        <div class="progress prog">
-          <div class="progress-bar bar" role="progressbar" style="width: 80%;" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
-        </div>
-      </div>
-      <div>
-        <div>
-          <p>CSS3</p>
-        </div>
-        <div class="progress prog">
-          <div class="progress-bar bar" role="progressbar" style="width: 80%;" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
-        </div>
-      </div>
-      <div>
-        <div>
-          <p>JS</p>
-        </div>
-        <div class="progress prog">
-          <div class="progress-bar bar" role="progressbar" style="width: 80%;" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
-        </div>
-      </div>
-      <div>
-        <div>
-          <p>FIREBASE</p>
-        </div>
-        <div class="progress prog">
-          <div class="progress-bar bar" role="progressbar" style="width: 50%;" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
-        </div>
-      </div>
-      <div>
-        <div>
-          <p>JQUERY</p>
-        </div>
-        <div class="progress prog">
-          <div class="progress-bar bar" role="progressbar" style="width: 70%;" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
-        </div>
-      </div>
-    </div>
+
   </section>
-  <section class="h100 text-center" id="portfolio">
+  <section class=" text-center" id="portfolio">
 
     <h1 class="p-3">PORTFOLIO</h1>
+
     <div class="container">
       <div class="row">
-        <figure class="col-xs-12 col-sm-4 fig-container">
+        <figure class="col-12 col-sm-4 fig-container">
           <img class="w100" src="assets/images/p1.png" alt="p1">
           <figcaption>
             <p class="font-s4 ">
@@ -152,10 +159,26 @@
                 <</span> Lab Car
                   <span class="aqua"> > </span>
             </p>
-            <span class="box-skills">HTML 5</span>
-            <span class="box-skills">CSS3</span>
-            <span class="box-skills">JAVASCRIPT</span>
-            <span class="box-skills">BOOTSTRAP</span>
+            <div class="container">
+              <div class="row text-center">
+                <div class="col-3 p10">
+                  <p class="box-skills">HTML5</p>
+                </div>
+                <div class="col-3 p10">
+                  <p class="box-skills">CSS3</p>
+                </div>
+                <div class="col-3 p10">
+                  <p class="box-skills">JAVASCRIPT</p>
+                </div>
+                <div class="col-3 p10">
+                  <p class="box-skills">BOOTSTRAP</p>
+                </div>
+              </div>
+            </div>
+
+
+
+
             <div class="mt-3">
               <a href="https://github.com/carlacentenor/lab-car-boilerplate-Boots" target="_blank">
                 <span class="fab fa-github aqua font-s4 "></span>
@@ -173,17 +196,34 @@
                 <</span>Bollywood Planet
                   <span class="aqua"> > </span>
             </p>
-            <span class="box-skills">HTML 5</span>
-            <span class="box-skills">CSS3</span>
-            <span class="box-skills">JQUERY</span>
-            <span class="box-skills">MATERIALIZE</span>
-            <span class="box-skills">FIREBASE</span>
-            <div class="mt-3">
-              <a href="https://github.com/carlacentenor/movieapp" target="_blank">
-                <span class="fab fa-github aqua font-s4 "></span>
-              </a>
-              <a href="https://carlacentenor.github.io/movieapp/" target="_blank" class="btn-visit white p-2">Visita la página</a>
+            <div class="container">
+              <div class="row text-center">
+                <div class="col-3 p10">
+                  <p class="box-skills">HTML5</p>
+                </div>
+                <div class="col-3 p10">
+                  <p class="box-skills">CSS3</p>
+                </div>
+                <div class="col-3 p10">
+                  <p class="box-skills">JQUERY</p>
+                </div>
+                <div class="col-3 p10">
+                  <p class="box-skills">FIREBASE</p>
+                </div>
+              </div>
+              <div class="row justify-content-center">
+                <div class="col-3 p10 ">
+                  <p class="box-skills">MATERIALIZE</p>
+                </div>
+                <div class="col-12 col-md-7">
+                  <a href="https://github.com/carlacentenor/movieapp" target="_blank">
+                    <span class="fab fa-github aqua font-s4 "></span>
+                  </a>
+                  <a href="https://carlacentenor.github.io/movieapp/" target="_blank" class="btn-visit white p-2">Visita la página</a>
+                </div>
+              </div>
             </div>
+
           </figcaption>
         </figure>
         <figure class="col-xs-12 col-sm-4 ">
@@ -194,17 +234,35 @@
                 <</span>Our Kids
                   <span class="aqua"> > </span>
             </p>
-            <span class="box-skills">HTML 5</span>
-            <span class="box-skills">CSS3</span>
-            <span class="box-skills">JQUERY</span>
-            <span class="box-skills">FIREBASE</span>
-            <span class="box-skills">MATERIALIZE</span>
-            <div class="mt-3">
-              <a href="https://github.com/carlacentenor/social-network" target="_blank">
-                <span class="fab fa-github aqua font-s4 "></span>
-              </a>
-              <a href="https://carlacentenor.github.io/social-network/" target="_blank" class="btn-visit white p-2">Visita la página</a>
+            <div class="container">
+              <div class="row text-center">
+                <div class="col-3 p10">
+                  <p class="box-skills">HTML5</p>
+                </div>
+                <div class="col-3 p10">
+                  <p class="box-skills">CSS3</p>
+                </div>
+                <div class="col-3 p10">
+                  <p class="box-skills">JQUERY</p>
+                </div>
+                <div class="col-3 p10">
+                  <p class="box-skills">FIREBASE</p>
+                </div>
+              </div>
+              <div class="row justify-content-center">
+                <div class="col-3 p10 ">
+                  <p class="box-skills">MATERIALIZE</p>
+                </div>
+                <div class="col-12 col-md-7">
+                  <a href="https://github.com/carlacentenor/social-network" target="_blank">
+                    <span class="fab fa-github aqua font-s4 "></span>
+                  </a>
+                  <a href="https://carlacentenor.github.io/social-network/" target="_blank" class="btn-visit white p-2">Visita la página</a>
+                </div>
+              </div>
+
             </div>
+
           </figcaption>
         </figure>
       </div>
@@ -213,30 +271,54 @@
     </div>
 
   </section>
-  <section class="h100 container d-flex  align-items-center" id="contact">
+
+
+  <section class="container" id="contact">
+
     <div class="row">
 
-    
-    <div class="col-xs-12 col-md-6">
-      <h1>CONTACT</h1>
-    </div>
-    <div class="col-xs-12 col-md-6">
-      <form name="form1" method="post" action="mailto:carlacentenor@gmail.com" enctype="text/plain">
-        <button class="btn-sub  white" type="submit">
-          <span class="far fa-envelope aqua font-s4 "></span>Envíame un email</button>
-      </form>
-      <div>
-        <p>
-          <span class="fab fa-github aqua font-s4 "></span>Visita mi Github</p>
-      </div>
-      <div>
-        <p>
-          <span class="fab fa-linkedin aqua font-s4"></span>Visita mi perfil</p>
-      </div>
-    </div>
-   
 
-  </div>
+      <div class="col-12 col-md-6 ">
+        <h1 class="p-3">CONTACT</h1>
+        <div class="content clearfix">
+          <div class="top">
+            <div class="hexagon icon-twitter"></div>
+            <div class="hexagon icon-dribble"></div>
+          </div>
+
+          <div class="bottom">
+
+            <div class="hexagon icon-plixi"></div>
+            <div class="hexagon icon-youtube"></div>
+            <div class="hexagon icon-tumblr"></div>
+
+          </div>
+        </div>
+
+      </div>
+      <div class="col-xs-12 col-md-6   d-flex  align-items-center">
+
+
+        <div class="">
+
+
+          <form class="m-3 " name="form1" method="post" action="mailto:carlacentenor@gmail.com" enctype="text/plain">
+            <button class="btn-sub p-0 white" type="submit">
+              <span class="far fa-envelope aqua font-s4 mr-3"></span>Envíame un email</button>
+          </form>
+          <div class="m-3">
+            <p>
+              <span class="fab fa-github aqua font-s4 mr-3"></span>Visita mi Github</p>
+          </div>
+          <div class="m-3">
+            <p>
+              <span class="fab fa-linkedin aqua font-s4 mr-3"></span>Visita mi perfil</p>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
   </section>
 
   <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
