@@ -236,7 +236,7 @@ section {
   padding: 5em;
 }
 .h100 {
-  height: 100vh;
+  height: auto;
 }
 
 .mt-7{
