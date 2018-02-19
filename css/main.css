@@ -122,10 +122,7 @@ section {
   z-index: 2;
 }
 
-.absolute {
-  position: absolute;
-  bottom: 0;
-}
+
 
 .relative{
   position: relative;
@@ -228,6 +225,8 @@ section {
  
 }
 
+
+
 .h10 {
   height: 10vh;
 }
@@ -264,7 +263,18 @@ section {
  
 }
 
+.h10{
+  height: 10vh;
+}
+.h90 {
+  height: 90vh;
+}
+
 @media only screen and (min-width: 960px) {
+
+  .h300{
+    height: 300px;
+  }
   .name {
     font-size: 2em;
   }
@@ -278,6 +288,10 @@ section {
   .h100 {
     height: 100vh;
   }
+
+  .h10{
+    height: 10vh;
+  }
   .h90 {
     height: 90vh;
   }
@@ -287,5 +301,10 @@ section {
 
   .img-w{
     width: 60%;
+  }
+
+  .absolute {
+    position: absolute;
+    bottom: 0;
   }
 }
