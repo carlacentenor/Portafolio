@@ -63,7 +63,7 @@ section {
 }
 
 .bg-img-p {
-  background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.35)), url(../assets/images/portada.jpg) center center;
+  background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.8)), url(../assets/images/portada.jpeg) center center;
   background-size: cover;
   color: white;
 }
@@ -74,6 +74,11 @@ section {
 
 .name {
   font-size: 1.6em;
+}
+
+
+a:hover{
+  text-decoration: none;
 }
 
 .color2 {
@@ -249,6 +254,9 @@ section {
 .img-w{
   width: 300px;
   border-radius: 10px;
+  border: .6em solid white;
+  box-shadow: 0px 2px 12px -4px rgba(0,0,0,0.75);
+  transform: rotate(-4deg)
 }
 
 .link {
