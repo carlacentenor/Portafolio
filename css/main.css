@@ -62,11 +62,11 @@ section {
   padding-top: 7em;
 }
 
-.parent{
+.parent {
   padding: 5% 1em;
 }
 
-.song{
+.song {
   padding: 10% 0;
 }
 
@@ -84,8 +84,7 @@ section {
   font-size: 1.6em;
 }
 
-
-a:hover{
+a:hover {
   text-decoration: none;
 }
 
@@ -94,7 +93,6 @@ a:hover{
   font-family: 'Grand Hotel', cursive;
   font-size: 1.5em;
 }
-
 
 .color-1 {
   color: var(--aqua);
@@ -142,9 +140,7 @@ a:hover{
   z-index: 2;
 }
 
-
-
-.relative{
+.relative {
   position: relative;
 }
 
@@ -242,72 +238,79 @@ a:hover{
 
 .bg-black {
   background-color: var(--dark);
- 
 }
-
-
 
 .h10 {
   height: 10vh;
 }
 
-.p5{
+.p5 {
   padding: 5em;
 }
+
 .h100 {
   height: auto;
 }
 
-.mt-7{
+.mt-7 {
   margin-top: 5em;
 }
 
-
-
-.mb-7{
+.mb-7 {
   margin-bottom: 10em;
 }
 
-.img-w{
+.img-w {
   width: 300px;
   border-radius: 10px;
   border: .6em solid white;
-  box-shadow: 0px 2px 12px -4px rgba(0,0,0,0.75);
+  box-shadow: 0px 2px 12px -4px rgba(0, 0, 0, 0.75);
   transform: rotate(-4deg)
+}
+
+.W90 {
+  width: 200px;
+}
+
+.w902 {
+  width: 213px;
+}
+
+.wgoals {
+  width: 240px;
 }
 
 .link {
   font-family: 'Montserrat', sans-serif;
   color: white;
   transition: 1s;
- 
 }
 
-.link:hover{
+.link:hover {
   text-decoration: none;
   color: var(--sky);
- 
 }
 
-.h10{
+.h10 {
   height: 10vh;
 }
+
 .h90 {
   height: 90vh;
 }
 
-.f14{
+.f14 {
   font-size: 16px;
 }
 
 @media only screen and (min-width: 960px) {
-
-  .f14{
+  .wgoals {
+    width: 290px;
+  }
+  .f14 {
     font-size: 18px;
   }
-  
-
-  .h300{
+  .h300 {
     height: 340px;
   }
   .name {
@@ -323,22 +326,19 @@ a:hover{
   .h100 {
     height: 100vh;
   }
-
-  .h10{
+  .h10 {
     height: 10vh;
   }
   .h90 {
     height: 90vh;
   }
-  .w60{
+  .w60 {
     width: 60%;
   }
-
-  .img-w{
+  .img-w {
     width: 300px;
     border-radius: 10px;
   }
-
   .absolute {
     position: absolute;
     bottom: 0;
